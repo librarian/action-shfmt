@@ -36,6 +36,7 @@ runs:
       shell: bash
       env:
         INPUT_SHFMT_FLAGS: ${{ inputs.shfmt_flags }}
+        INPUT_SHFMT_WORKDIR: ${{ inputs.workdir }}
     - uses: reviewdog/action-suggester@v1
       with:
         tool_name: shfmt
