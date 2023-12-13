@@ -1,4 +1,4 @@
-name: 'Run shfmt with reviewdog'
+name: 'Run shfmt with reviewdog (fork by librarian)'
 description: '🐶 Run shfmt with reviewdog on pull requests to improve code review experience.'
 author: 'haya14busa'
 inputs:
